@@ -1,5 +1,7 @@
 # Configuration file for the Sphinx documentation builder.
 
+# -- Project information
+
 from datetime import datetime
 import sphinx_rtd_theme
 
@@ -9,9 +11,9 @@ templates_path = ["_templates"]
 source_suffix = ".rst"
 master_doc = "index"
 
-project = u"WebSaw"
+project = u"WebSSon user guide"
 year = datetime.now().year
-copyright = u"%d WebSaw" % year
+copyright = u"%d Fineupp" % year
 
 exclude_patterns = ["_build"]
 
@@ -37,4 +39,4 @@ html_theme_options = {
     'titles_only': False
 }
 
-#html_logo = '_static/websaw-logos_transparent.png'
+html_logo = '_static/websson.png'
