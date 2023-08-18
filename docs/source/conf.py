@@ -2,34 +2,41 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+from datetime import datetime
+import sphinx_rtd_theme
 
-release = '0.1'
-version = '0.1.0'
+extensions = ['sphinx_rtd_theme',]
 
-# -- General configuration
+templates_path = ["_templates"]
+source_suffix = ".rst"
+master_doc = "index"
 
-extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+project = u"WebSSon user guide"
+year = datetime.now().year
+copyright = u"%d Fineupp" % year
+
+exclude_patterns = ["_build"]
+
+html_theme = "sphinx_rtd_theme"
+html_static_path = ['_static']
+html_css_files = [
+    'css/custom.css',
 ]
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+
+html_theme_options = {
+    'logo_only': True,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': 'teal',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
 }
-intersphinx_disabled_domains = ['std']
 
-templates_path = ['_templates']
-
-# -- Options for HTML output
-
-html_theme = 'sphinx_rtd_theme'
-
-# -- Options for EPUB output
-epub_show_urls = 'footnote'
+html_logo = '_static/websson.png'
