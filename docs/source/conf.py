@@ -30,7 +30,7 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
     'vcs_pageview_mode': '',
-    'style_nav_header_background': 'rgb(153, 187, 242)', #(153, 187, 242)',
+    'style_nav_header_background': 'rgb(227, 229, 232)', #(153, 187, 242)',
     # Toc options
     'collapse_navigation': True,
     'sticky_navigation': True,
