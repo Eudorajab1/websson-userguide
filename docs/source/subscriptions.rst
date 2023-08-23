@@ -1,12 +1,16 @@
-Subscription
-============
+Subscriptions
+=============
 
-Depending on the subscription you choose you will have a number of features as specified by your subscription.
+Websson offers a range of subscription options which have been designed to cater for different levels of functional requirements
+based on real use cases and the most common environment configurations.
 
-What you choose will depend entirely on your requirements and your choice of subscription.
+Your choice of subscription will depend entirely on your existing requirements and in the unlikely event that 
+there is not a subscription available that meets your requirtement we can tailor a brespoke subscription specifically
+to meet your needs.
 
-In the unlikely event that there is not a subscription that meets your requirtement we can tailor a subscription to meet
-your needs specifically. 
+If your requirements change over the course of your project life-cycle, it is very simple and straightforward to 
+upgrade or downgrade your subscription to better reflect theese changes.
+
 
 .. _creating:
 
@@ -16,12 +20,16 @@ Creating
 Creating a subscription is as simple as selecting the subscription from the available list and clicking the **Subscribe**
 button. 
 
-If this is your first subscription you will be redirected to a paymnet portal where additional information will be reuired
-in order to activate your subscription.
+If this is your first subscription you will be automatically directed to our **secure paymnet gateway** where additional 
+information may be reuired and validated in order to actrivate your subscription.
 
 Once all inforation has been validated you will be redirected to the **customer portal** where you can set up 
 an enviroment/environments based on your subscription.
 
+.. note::
+
+    Once activated your subscripion will automatically run up until the end of the subscription billing cycle (normally mothly or yearly),
+    at which time it will auto renew unless cancelled.
 
 .. _upgrading:
 
@@ -33,6 +41,11 @@ creating a subscription.
 
 Simply select the new subscription and you will automatically be upgraded and redirecteed to the **customer portal** where you 
 can immediatly use you new features.
+
+.. note::
+
+    Only the difference in cost between you current subscription and the upgraded subscription will be added to your normal billing
+    cycle.
 
 .. _downgrading:
 
@@ -54,5 +67,14 @@ There are however a few extra steps you may need to take depending on your curre
 Cancelling
 -----------
 
-How to cancel a subscription 
+You can cancel your subscription at any time by choosing the appropriate option from your menu.
+
+All data and indeed your whole environmnet will remain intact for a period of 30 days after cancellation as standard
+and you will still be able to accerss this information if requireed.
+
+.. note::
+    
+    If during this time you wish to re-activate your subscripion our customer support team will be more than 
+    happy to assist.
+    
 
