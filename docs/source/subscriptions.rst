@@ -1,8 +1,12 @@
 Subscriptions
 =============
 
-Websson offers a range of subscription options which have been designed to cater for different levels of functional requirements
-based on real use cases and the most common environment configurations.
+Websson currently offers three standard levels of subscription to cater for different levels of functional 
+requirements as follows:-
+
+        #.  **HACKER**       - Suitable for entry level functionality and smaller production applications.
+        #.  **PREMIUM**      - Suitable for multi-environment functionality and production ready applications.
+        #.  **ENTERPRISE**   - Suitable for larger complex application development and produciton hosting.  
 
 Your choice of subscription will depend entirely on your existing requirements and in the unlikely event that 
 there is not a subscription available that meets your requirtement we can tailor a brespoke subscription specifically
@@ -11,6 +15,14 @@ to meet your needs.
 If your requirements change over the course of your project life-cycle, it is very simple and straightforward to 
 upgrade or downgrade your subscription to better reflect theese changes.
 
+All standard subscription come with a **FREE TRIAL** period of 30 days.
+
+.. note::
+
+    You will not be asked for any payment details if you opt for a **FREE TRIAL** on any of the subscriptions
+    and will only be invoiced when you subscribe.
+    
+    You can **UPGRADE** to your required subscription at any time.
 
 .. _creating:
 
