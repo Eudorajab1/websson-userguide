@@ -1,3 +1,5 @@
+.. _environment:
+
 Environments
 ============
 
@@ -9,8 +11,8 @@ Typically your subscripion will consist of the following features per environmen
         *  Disk space
         *  Ram
         *  Database engines
-        *  Database admin/GUI
-        *  IDE / editors
+        *  Database admins/GUI
+        *  IDE's / editors
         *  Domain names
         *  Instances
 
@@ -56,11 +58,14 @@ Once all the information has been entered the environment is automatically creat
 Customising
 -----------
 
-Customising an environmnet is also done via the **Environment Manager** option from the menu then by selecting 
-the **Admin** action button from the environment you wissh to customise.
+Customising an environmnet is done via the **Environment Manager** option from the menu then by selecting 
+the **Admin** action button for the environment you wish to customise.
 
-You will be presented with all the options that are customisable based on your selected subscription and simply following
-the procedure for customising any and all features required.
+You will be presented with all the options that are customisable based on your selected subscription and 
+simply following the procedure for customising any and all features required.
+
+Adding additional packages / libraries / or low level scripts etc and be achieved by following the procedures
+outlined in :ref:`Custom Enviroments <Custom environments>`.
 
 .. _removing:
 
@@ -73,9 +78,6 @@ button on the relevant environment.
 This will pormpt you to confirm you wish to delete the environment and by accepting the environment will be removed.
 
 .. note::
-
     All data for the deleted environment will be available for a period of 30 (thirty) days after the environment
     is deleted but we strongly reccomend that you manke backups or download any data you wish to keep before
     removing an active environment.
-    
-
